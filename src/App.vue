@@ -2,7 +2,9 @@
 import AppTitle from './components/AppTitle.vue';
 export default{
   data(){
-    name: 'Yeah'
+    return{
+      name: 'Yeah'
+    }
   },
   components:{
     AppTitle: AppTitle
